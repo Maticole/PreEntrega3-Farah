@@ -1,0 +1,72 @@
+h3 {
+    text-align: center;
+}
+
+.azul {
+    color: blue;
+}
+
+.rojo {
+    color: red;
+}
+.futsal{
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+.categorias{
+    margin: 20px 0;
+}
+.futmasc{
+    width: 100%;
+}
+.futfem{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}   
+.natacion{
+    display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+.horarios{
+    width: 100%;
+
+}
+.temporada{
+    margin: 10px 0;
+}
+.aranceles{
+    margin: 10px 0;
+}
+.precios{
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 10px;
+
+}
+.precios ol{
+    list-style: circle;
+}
+.gimnasia{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.cronohorarios{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.imagenesgym{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.imagenesgym img{
+    object-fit: fill;
+    width: 100%;
+}

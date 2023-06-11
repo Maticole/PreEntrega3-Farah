@@ -1,0 +1,15 @@
+.pie-de-pagina {
+    background-color: $color-principal;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+} 
+.pie-de-pagina img{
+    width: 30px;
+    height: 30px;
+}

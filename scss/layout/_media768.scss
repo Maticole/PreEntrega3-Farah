@@ -1,0 +1,63 @@
+@media (max-width:768px) {
+
+    .encabezado{
+        background: linear-gradient(to right top, blue, lightblue, #0d303b);    
+    }
+    h1{
+        font-size: 50px;
+    }
+    .actividades-lista {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        .logo-deporte {
+            display: flex;
+            justify-content: center;
+            
+            
+        }  
+        .logo-deporte img{
+
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .futsal img {
+        height: 50%;
+        width: 50%;
+    }
+    .futmasc {
+        width: 100%; }
+    .futfem img {
+        height: 40%;
+        width: 40%;
+    }
+    .futfem {
+        display: flex;
+        gap: 10px;
+        font-size: 10px; }
+    .gimnasia img{
+            height: 50%;
+            width: 50%;
+        }
+    .cronohorarios{
+        font-size: 8px;
+        flex-wrap: wrap;
+    }    
+    .imagenesgym{
+        flex-wrap: wrap;
+        height: 50%;
+        width: 50%;
+        margin: auto;
+        
+        
+        
+    }
+    .pie-de-pagina {
+        background: linear-gradient(to right top, blue, lightblue, #0d303b);
+    }
+
+
+}

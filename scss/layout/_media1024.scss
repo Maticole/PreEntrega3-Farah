@@ -1,0 +1,17 @@
+@media (max-width:1024px){
+    .encabezado{
+        background: linear-gradient(to right top, blue, lightblue, #0d303b)
+    }
+    h1{
+        font-size: 50px;
+    }
+    .actividades-lista {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .pie-de-pagina {
+        background: linear-gradient(to right top, blue, lightblue, #0d303b);
+    }
+}
