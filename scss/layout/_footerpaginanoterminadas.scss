@@ -1,0 +1,11 @@
+.basquetheader {
+    
+    @extend .encabezado;
+    @extend .escudo;
+    @extend .nav;
+    @extend .link;
+
+}
+
+
+

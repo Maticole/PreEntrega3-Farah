@@ -6,7 +6,7 @@
 html {
   font-size: 62.5%; }
 
-.encabezado {
+.encabezado, .basquetheader {
   background-color: #385898;
   display: grid;
   width: 100%;
@@ -23,7 +23,7 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 4; }
 
-.escudo {
+.escudo, .basquetheader {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -31,20 +31,20 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 5; }
 
-.nav {
+.nav, .basquetheader {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5; }
 
-.link {
+.link, .basquetheader {
   display: flex;
   justify-content: center;
   list-style: none;
   gap: 20px;
   font-size: 20px; }
 
-.link a:hover {
+.link a:hover, .basquetheader a:hover {
   color: red; }
 
 .main {
@@ -174,8 +174,16 @@ h3 {
   object-fit: fill;
   width: 100%; }
 
+.basquetmain, .patinmain, .taekwondomain {
+  width: 100%;
+  height: 100%;
+  background-color: #37CBD4;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+
 @media (max-width: 1024px) {
-  .encabezado {
+  .encabezado, .basquetheader {
     background: linear-gradient(to right top, blue, lightblue, #0d303b); }
   h1 {
     font-size: 50px; }
@@ -188,7 +196,7 @@ h3 {
     background: linear-gradient(to right top, blue, lightblue, #0d303b); } }
 
 @media (max-width: 768px) {
-  .encabezado {
+  .encabezado, .basquetheader {
     background: linear-gradient(to right top, blue, lightblue, #0d303b); }
   h1 {
     font-size: 50px; }
@@ -242,7 +250,7 @@ h3 {
   .pie-de-pagina {
     background: linear-gradient(to right top, blue, lightblue, #0d303b);
     padding: 20px;
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -250,5 +258,19 @@ h3 {
     font-size: 8px;
     justify-content: space-between; }
   .natacion img {
+    height: 50%;
+    width: 50%; }
+  .basquet img {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center; }
+  .categorias {
+    font-size: 20px; }
+  .taekwondo img {
+    height: 50%;
+    width: 50%; }
+  .patin img {
     height: 50%;
     width: 50%; } }

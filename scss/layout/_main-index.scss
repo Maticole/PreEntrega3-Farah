@@ -3,11 +3,7 @@
 }
 
 .actividades-lista {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    
+    @include grid(100%,repeat(3,1fr),10px);
 }
 
 .logo-deporte {

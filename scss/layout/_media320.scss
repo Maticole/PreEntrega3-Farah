@@ -20,7 +20,7 @@
     .pie-de-pagina {
         background: linear-gradient(to right top, blue, lightblue, #0d303b);
         padding: 20px;
-        height: 150px;
+        height: 200px;
         display: flex;
         justify-content: center;
         justify-items: center;
@@ -29,6 +29,25 @@
         justify-content: space-between
     }
     .natacion img{
+        height: 50%;
+        width: 50%;
+    }
+    .basquet img{
+
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .categorias {
+        font-size: 20px;
+    }
+    .taekwondo img{
+        height: 50%;
+        width: 50%;
+    }
+    .patin img{
         height: 50%;
         width: 50%;
     }
